@@ -1,7 +1,9 @@
-package com.amex.ui.tests;
+package utils;
 
 import org.testng.IRetryAnalyzer;
-import org.testng.ITestResult; /**
+import org.testng.ITestResult;
+
+/**
      * RetryAnalyzer inner class for handling test retries
      */
     public class RetryAnalyzer implements IRetryAnalyzer {
